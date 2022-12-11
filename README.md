@@ -76,7 +76,7 @@ python ./train.py
 > 竞赛时，我们使用了1卡NVIDIA A100进行了训练；训练时间较长；
 
 ## 预测
-> 运行predict.py脚本
+> 运行predict.py脚本、最优模型已经保存在checkpoint文件夹下
 ```
 python predict.py 
      <要预测的图像文件夹路径> 
